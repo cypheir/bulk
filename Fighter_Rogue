@@ -1,20 +1,22 @@
+///////////////////////////////////////////////////////////////////////////////
+CHARACTER PLAN
+_______________________________________________________________________________
 // ATRIBUTES //
-
-  * STR 15  (+1) = 16 [+3]      [MAX-> 20]
-    DEX 13  (+0) = 13 [+1]      [MAX-> 14]
-  * CON 14  (+1) = 15 [+2]      [MAX-> 18]
-    INT 9   (+0) = 9  [-1]      [MAX-> 10]
-    WIS 12  (+1) = 12 [+1]      [MAX-> 14]
-    CHR 9   (+0) = 9  [-1]      [MAX-> 10]
-
+                                ASI Plan A    ASI Plan B
+  * STR 15  (+1) = 16 [+3]      [MAX-> 20]    [MAX-> 17]
+    DEX 13  (+0) = 13 [+1]      [MAX-> 14]    [MAX-> 14]
+  * CON 14  (+1) = 15 [+2]      [MAX-> 18]    [MAX-> 15]
+    INT 9   (+0) = 9  [-1]      [MAX-> 10]    [MAX->  9]
+    WIS 12  (+1) = 12 [+1]      [MAX-> 14]    [MAX-> 13]
+    CHR 9   (+0) = 9  [-1]      [MAX-> 10]    [MAX->  9]
+    
+_______________________________________________________________________________
 ///////////////
-
 Level 1 - F1
 
   // Saving Throws: Strength, Constitution
   // Fighting Style: Great Weapon Fighting
-  // Ability
-    Second Wind
+  // Ability: Second Wind
   // Proficiencies
       All armor & shields
       Simple weapons & martial weapons
@@ -31,37 +33,55 @@ Level 1 - F1
 
 Level 2 - F1|R1
 
+    1st Ranger - 
   // Ability
-    Sneak Attack
-        - Deal extra 1d6 if you have advantage on the
-          attack roll or enemy is distracted by someone
-        - Must use finesse or ranged weapon
-    Thieves' cant
-        - Speak in jargon to convey secret messages
-          efficiently
-  // Proficiencies
-        Thieves Tools
+    Favored Enemy (studying, tracking, hunting, and talking to)
+        - Choose 2: Humanoids, Undead
+        - +2 to Damage rolls with weapon attacks
+        - Advantage on Wis checks to tracking
+        - Advantage on Int checks to recall info about them
+    Natural Explorer
+        - Ignore difficult terrain
+        - Advantage on initiative rolls
+        - First turn combat: Advantage on attack rolls vs creatures that 
+          haven't acted yet
+        - After traveling for an hour or more:
+          - Difficult terrain doesn't slow your group's movement
+          - Your group can't become lost except by magical means
+          - Even when preforming activities, you're alert to danger
+          - When traveling alone, you can move stealthily at normal pace
+          - When you forage, you find twice as much
+          - When tracking you learn their numbers, sizes, and how long 
+            ago the passed through
   // Skills
       {1} Stealth
 
 Level 3 - F1|R2
 
   // Ability
-    Cunning Action
-        - Bonus action: Dash, Disengage, or Hide action
+    Spell Casting
+        - 2, 1st Lvl Slots
+        - Spellcasting Ability = Wis
+        - Spell save DC = 8 + prof bonus + Wis mod
+        - Spell attack mod = prof bonus + Wis mod
+  // Fighting Style: Archery (+2 Bonus to atk roll with ranged weapons)
 
 Level 4 - F1|R3
 
-  // Archetype: Assassin
-  // Ability
-    Assassinate
-        - Advantage vs those that haven't taken turn
-        - Hit vs surprised is critical hit
-        - Sneak Attack (2)
-            - Deal extra 2d6
-  // Proficiencies
-        - Disguise Kit
-        - Poisoner's Kit
+  // Ranger Conclave: Deep Stalker Conclave
+    Underdark Scout
+        - First turn combat, +10 to speed, if you attack you can attack again
+        - Creatures with darkvision gain no benefit detecting you in dark/dim
+        - They also gain no benefit when you're hiding from them
+        - Darkvision, 90ft
+        - Deep Stalker spell (free): Disguise Self 
+  // Primeval Awareness
+        - Innate: Communicate simple ideas with beasts, read its
+          mood and intent, seen as kindred spirit
+        - Concentrate 1 min - Determine if any favored enemies are
+          present in 5 mile radius, and how many
+  // Spells
+        - 3, 1st Lvl Slots
 
 Level 5 - F2|R3
   // Ability
@@ -82,7 +102,9 @@ Level 6 - F3|R3
 
 Level 7 - F4|R3
   // Ability Score
-      +2 Strength (18)
+      PLAN A: +2 Strength (18)
+      PLAN B: Feat. Weapon Master, +1 Strength (17)
+              Proficiency with 4 weapons of your choice
 
 Level 8 - F5|R3
   // Ability
@@ -92,10 +114,20 @@ Level 8 - F5|R3
 
 Level 9 - F5|R4
   // Ability Score
-      +1 Dexterity (14)
-      +1 Constitution (16)
+      PLAN A: +1 Dexterity (14), +1 Constitution (16)
+      PLAN B: Feat. Stealthy, +1 Dexterity (14)
+              Double rolls made with Stealth skill
+              Move up to 10ft. without being detected
 
 Level 10 - F5|R5
+  // Ability
+    Extra Attack (1)
+      - You can now attack twice when taking Attack
+        action
+  // Spells
+      - Deep Stalker spell 2 (free): Rope Trick
+      - 4, 1st Lvl Slots; 2, 2nd Lvl Slots
+
   // Ability
     Uncanny Dodge
       - Attacker you can see hits you, use reaction to
@@ -105,7 +137,10 @@ Level 10 - F5|R5
 
 Level 11 - F6|R5
   // Ability Score
-      +2 Wisdom (14)
+      PLAN A: +2 Wisdom (14)
+      PLAN B: Feat. Perceptive, +1 Wisdom (13)
+              Double rolls made with perception skill
+              If you can see/hear, lightly obscured doesnt count against checks
 
 Level 12 - F7|R5
   // Ability
@@ -123,7 +158,10 @@ Level 12 - F7|R5
 
 Level 13 - F8|R5
   // Ability Score
-      +2 Constitution (18)
+      PLAN A: +2 Constitution (18)
+      PLAN B: Feat. Prodigy, +1 Constitution (15)
+              Gain one skill proficiency, one tool proficiency, and fluency 
+              in one language.
 
 Level 14 - F9|R5
   // Indomitable (1/LR)
@@ -147,8 +185,9 @@ Level 16 - F11|R5
 
 Level 17 - F12|R5
   // Ability Score
-      +1 Intelligence (10)
-      +1 Charisma (10)
+      PLAN A: +1 Intelligence (10), +1 Charisma (10)
+      PLAN B: Feat. Savage Attacker
+              Once/turn: you can reroll damage dice and use either
 
 Level 18 - F13|R5
   // Ability
@@ -157,7 +196,12 @@ Level 18 - F13|R5
 
 Level 19 - F14|R5
   // Ability Score
-      +2 Strength (20)
+      PLAN A: +2 Strength (20)
+      PLAN B: Feat. Mobile
+              Speed +10ft., no movement penalty on difficult terrain when 
+              dashing, when you melee you don't provoke opportunity attacks
+              from that creature for the rest of the turn, whether you 
+              hit or not.
 
 Level 20 - F15|R5
   // Ability
