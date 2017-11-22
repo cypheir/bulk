@@ -5,7 +5,7 @@ _______________________________________________________________________________
                                 ASI Plan A    ASI Plan B
   * STR 15  (+1) = 16 [+3]      [MAX-> 20]    [MAX-> 17]
     DEX 13  (+0) = 13 [+1]      [MAX-> 14]    [MAX-> 14]
-  * CON 14  (+1) = 15 [+2]      [MAX-> 18]    [MAX-> 15]
+  * CON 14  (+1) = 15 [+2]      [MAX-> 18]    [MAX-> 16]
     INT 9   (+0) = 9  [-1]      [MAX-> 10]    [MAX->  9]
     WIS 12  (+1) = 12 [+1]      [MAX-> 14]    [MAX-> 13]
     CHR 9   (+0) = 9  [-1]      [MAX-> 10]    [MAX->  9]
@@ -159,7 +159,7 @@ Level 12 - F7|R5
 Level 13 - F8|R5
   // Ability Score
       PLAN A: +2 Constitution (18)
-      PLAN B: Feat. Prodigy, +1 Constitution (15)
+      PLAN B: Feat. Prodigy, +1 Constitution (16)
               Gain one skill proficiency, one tool proficiency, and fluency 
               in one language.
 
